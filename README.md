@@ -111,7 +111,7 @@ src/
 │   │       ├── repository/
 │   │       └── model/
 │   │       ├── responses/
-│           └── service/
+│   │       └── service/
 │   └── resources/
 │       └── application.yaml
 └── test/
