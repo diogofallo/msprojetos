@@ -73,9 +73,9 @@ Por padrão, a aplicação Spring Boot utiliza a porta `8080`, salvo configuraç
 
 | Método HTTP | Endpoint         | Descrição                |
 | ----------- | ---------------- | ------------------------ |
-| POST        | `/msprojetos`               | Cadastrar um projeto      |
-| GET         | `/projectos/lista-projetos` | Lista todos os projetos   |
-| GET         | `/projects/{id}`            | Buscar um projeto pelo ID |
+| POST        | `/msprojetos`                | Cadastrar um projeto      |
+| GET         | `/msprojetos/lista-projetos` | Lista todos os projetos   |
+| GET         | `/msprojetos/{id}`           | Busca um projeto pelo ID |
 
 ### Exemplos de requisições
 
@@ -83,7 +83,6 @@ Por padrão, a aplicação Spring Boot utiliza a porta `8080`, salvo configuraç
 
 ```http
 POST /msprojetos
-Content-Type: application/json
 ```
 
 **Listar projetos**
