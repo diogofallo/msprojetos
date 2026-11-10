@@ -27,14 +27,14 @@ public class ProjetoController {
         return ResponseEntity.status(HttpStatus.CREATED).body(response);
     }
 
-    @GetMapping("/{id}")
+    @GetMapping("/{id:\\d+}")
     public ResponseEntity<ProjetoDTO> findProjectById(@PathVariable Long id) {
         ProjetoDTO projeto = service.findProjecById(id);
         return ResponseEntity.ok(projeto);
     }
 
     @GetMapping("/lista-projetos")
-    public List<ProjetoDTO> listProjects(){
-        return service.listProjects();
+    public ResponseEntity<List<ProjetoDTO>> listProjects(){
+        return ResponseEntity.ok(service.listProjects());
     }
 }

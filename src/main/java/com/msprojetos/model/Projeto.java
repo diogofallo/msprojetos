@@ -1,6 +1,7 @@
 package com.msprojetos.model;
 
-import com.msprojetos.model.enums.Status;
+import com.msprojetos.model.enums.StatusProjeto;
+import com.msprojetos.model.enums.StatusProjeto;
 import jakarta.persistence.*;
 import lombok.Data;
 
@@ -29,6 +30,6 @@ public class Projeto {
 
     @Enumerated(EnumType.STRING)
     @Column(name = "status", nullable = false)
-    private Status statusProjeto;
+    private StatusProjeto statusProjeto;
 
 }

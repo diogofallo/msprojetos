@@ -1,7 +1,8 @@
 package com.msprojetos.dto;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
-import com.msprojetos.model.enums.Status;
+import com.msprojetos.model.enums.StatusProjeto;
+import com.msprojetos.model.enums.StatusProjeto;
 
 public record ProjetoDTO(
         @JsonProperty("id") Long id,
@@ -9,6 +10,6 @@ public record ProjetoDTO(
         String descricao,
         String dataInicio,
         String dataTermino,
-        Status status
+        StatusProjeto status
 ) {
 }

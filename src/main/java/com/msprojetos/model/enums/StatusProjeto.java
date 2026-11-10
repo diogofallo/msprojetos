@@ -1,6 +1,6 @@
 package com.msprojetos.model.enums;
 
-public enum Status {
+public enum StatusProjeto {
     ABERTO,
     FINALIZADO
 }
