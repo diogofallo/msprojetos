@@ -32,7 +32,7 @@ Para executar o projeto, é necessário ter instalado:
 1. Clone este repositório:
 
 ```bash
-git clone URL_DO_REPOSITORIO
+git clone https://github.com/diogofallo/msprojetos.git
 ```
 
 2. Acesse a pasta do projeto:
